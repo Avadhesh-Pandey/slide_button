@@ -61,7 +61,6 @@ class _MyHomePageState extends State<MyHomePage> {
           action: () async {
             debugPrint('Action completed');
             ///Any task
-
             /// Async task for progress bar
             await Future.delayed(const Duration(seconds: 3), () => debugPrint('Large Latte'));
             return false;
